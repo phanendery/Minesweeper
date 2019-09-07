@@ -9,11 +9,11 @@ class Minesweeper extends Component {
     flags: 10,
     mines: 10
   };
-  
+
   render() {
     return( 
     <div className="minesweeper">
-      <Board rows={this.state.rows} colums={this.state.columns} mines={this.state.mines}/>
+      <Board rows={this.state.rows} columns={this.state.columns} mines={this.state.mines}/>
       </div>
     );  
   }
