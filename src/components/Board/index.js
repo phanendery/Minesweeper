@@ -33,7 +33,7 @@ class Board extends Component {
       let cell = board[randomRow][randomColumn];
 
       if (cell.hasMine) {
-        i--;
+        i--; //pick a different cell if this one is taken
       } else {
         cell.hasMine = true;
       }
